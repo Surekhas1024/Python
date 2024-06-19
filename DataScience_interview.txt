@@ -1,0 +1,247 @@
+
+None selected 
+
+Skip to content
+Using Gmail with screen readers
+
+2 of 19,277
+JD, Attachment and Link for Data Science-Python_Giant Mind Solutions.
+Inbox
+
+Sudip Kumar Das <sudip@adventtalents.com>
+Attachments
+5:10 PM (1 hour ago)
+to me
+
+Hii,
+Good Evening!
+ 
+As discussed earlier, I have shared the JD with you. Please find out and revert with an acknowledgement. 
+ 
+Also, find the Skype Link I have added below for the Virtual Coding Test (Screening Test). Request you to join using the same on Wednesday, 19th June @2pm.
+Link - https://join.skype.com/xMIiPGxY2oDY
+ 
+
+Job Title: Data Science- Python
+Location: Remote
+Job Type: Full-time
+N.P.- Immediate to 30 Days
+Client- Giant Mind Solutions
+Interview Rounds- Virtual Coding/Screening Test, Technical Round & Client Round 
+ 
+
+Job Description:
+We are seeking a highly skilled and experienced Data Science- Python to join our dynamic team. The ideal candidate must have extensive hands-on experience in:
+1)Python and SQL strong knowledge
+2)Python Programming
+3)SQL
+4)Numpy, Pandas
+5)Should be able to do the programming
+6) Data Science, Machine Learning
+ 
+ 
+**Note:
+Before attending the Virtual Coding Test:-
+1. Sign up and Create an account in Leetcode
+2. Sign up and Create an account on Kaggle.com
+3. Practice the Sample Leetcode Problems in the attachment (Python & SQL) which you'll be given in the Interview Rounds.
+ 
+ 
+**Questions usually asked by Giant Mind panel:
+ 
+1. What is R Strip method
+2. What is Elite Function
+3. What is Lambda Function
+4. What is Filter Function
+5. What is Pickling
+6. Max No.of Vowels
+ 
+ 
+Link for signing up:
+https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii/description/
+ 
+COMPANY OVERVIEW:
+https://www.gmindsolution.com/
+ 
+ 
+
+Thanks & Regards, 
+Sudip Kumar Das
+Associates Sourcing Consultant
+Advent Talent Solutions Pvt Ltd. 
+https://adventtalentsolutions.com
+Bangalore/ Pune/Delhi/Mumbai
+Ph: 9394069224
+ One attachment
+  •  Scanned by Gmail
+
+
+Python Sample Problems:-
+https://leetcode.com/problems/two-sum/description/
+https://leetcode.com/problems/3sum/description/
+https://leetcode.com/problems/product-of-array-except-self/description/
+https://leetcode.com/problems/search-a-2d-matrix/description/
+https://leetcode.com/problems/longest-valid-parentheses/description/
+https://leetcode.com/problems/find-all-duplicates-in-an-array/
+https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/
+------------------------------------------------------------------------------
+
+SQL Sample Problems:-
+https://leetcode.com/problems/department-highest-salary/description/?envType=list&envId=e97a9e5m
+https://leetcode.com/problems/second-highest-salary/description/
+https://leetcode.com/problems/nth-highest-salary/description/
+-------------------------------------------------------------------------------
+
+Long Valid Paranthesis
+Randomized collection
+Plagiarism Detection
+Palindrome pairs
+No of sequences that satisfy the given sum condition
+Maximum number of wovels in a substring of given length
+Longest consecutive sequence
+Fuzzy Search
+Longest repeating character replacement
+Find all Anagrams in a string
+Randomized set
+Compression / decompression algorithm 
+Find all duplicates in an array
+Palindrome number
+Search Insert position
+Remove all adjacent duplicates in a string
+Word pattern
+Ransom note
+Climbing stairs
+Design parking system
+Long pressed name
+Maximum number of Vowels 
+Bubble sort 
+Sorting 
+Binary search - ordered sort array 
+Time complexity
+What are generator functions in python?
+https://leetcode.com/problems/number-of-islands/
+https://leetcode.com/problems/number-of-islands/
+------------------------------------------------------------------------ 
+
+Top 5 product from sales amount
+
+Select product , sum ( sales amount ) from table name group by product order total sakes desc limit 5
+
+second highest employee salary by each department
+ 
+three select columns -> salary , employee, department
+-------------------------------------------------------------------------- 
+ 
+What is histogram
+Precision and recall
+Confusion matrix
+Scd and it's types- SCD stands for Slowly Changing Dimension. SCD refers to how dimensional data (e.g., customer information, product details) changes over time and how these changes are managed within a data warehouse or database.
+Change data capture - Change Data Capture (CDC) is a technology used in databases and data integration processes to capture and track changes made to data.
+Type 1 - Overwrite/Update:
+
+Description: In Type 1 SCD, the old data is simply overwritten with the new data.
+Characteristic: No history is maintained; the dimension attribute is updated directly.
+Use Case: Appropriate when historical data is not needed or when changes are insignificant.
+Example: If a customer changes their phone number, the existing record is updated with the new phone number, and the old one is lost.
+
+Type 2 - Add New Row/Versioning:
+
+Description: In Type 2 SCD, a new row is added to the dimension table to represent the new data, while the old row(s) are retained to maintain history.
+Characteristic: Historical records are preserved by creating new records with a new surrogate key (usually a unique identifier).
+Use Case: Suitable when you need to keep track of historical changes and analyze data over time.
+Example: When a product's price changes, a new record is inserted with the updated price and an incremented version number or effective date.
+
+Type 3 - Add New Attribute:
+
+Description: In Type 3 SCD, a limited history is maintained by adding new columns (attributes) to the existing dimension table to store specific changes.
+Characteristic: Unlike Type 2, only selected attributes are kept as history; other attributes remain overwritten.
+Use Case: Useful when you want to maintain some historical data but not the full history.
+Example: Keeping track of a customer's current and previous addresses in separate columns within the same record.
+Principle component analysis
+Sigmoid activation function
+How to build intervals
+---------------------------------------------------------------------------- 
+
+Coding
+1) top 5 customers who have highest avg order amount, considering only customers who made more than 10 orders
+2) pandas prog to list of animals weighing more than 100 kg order in desc order
+
+import pandas as pd
+
+# Sample data (assuming you have a DataFrame named 'animals' with columns 'animal' and 'weight_kg')
+data = {
+    'animal': ['Elephant', 'Giraffe', 'Lion', 'Tiger', 'Zebra'],
+    'weight_kg': [500, 800, 200, 150, 120]
+}
+
+# Create a DataFrame
+animals = pd.DataFrame(data)
+
+# Filter animals weighing more than 100 kg
+heavy_animals = animals[animals['weight_kg'] > 100]
+
+# Sort by weight in descending order
+heavy_animals_sorted = heavy_animals.sort_values(by='weight_kg', ascending=False)
+
+# Extract the list of animals
+list_of_animals = heavy_animals_sorted['animal'].tolist()
+
+3) flatten nested dictionary
+1. Maximum count of vowels in a substring of given length. Leetcode problem. 
+2. Sql query to find the top 5 products as per their total sales.
+3. Catalyst optimiser in spark
+4. Spark architecture
+5. List vs Dict difference
+6. Flattening a 2d Matrix
+------------------------------------------------------------------------------
+
+
+List vs dict difference
+
+Difference between fact table and Dimension Table?
+
+What is the *Schema?
+
+-----------------------------------------------------------------------------
+
+Python questions
+1.find the duplicate in the array
+2.Find the number of vowels in a substring
+3.Longest Palindromic Substring
+4.Fibonacci series
+5.Reverse Integer
+6.Maximum Subarray Sum
+7.Check whether the string is palindrome or not
+8.Map and lambada function
+9.Validating phone numbers
+10.Swap case
+
+-------------------------------------------------------------------------
+
+
+
+Data science Questions
+
+---------------------------
+
+principal component analysis?
+Confusion Matrix?
+K Means and KNN?
+How will you handle imputation of data for a large dataset?
+https://www.analyticsvidhya.com/blog/2021/10/a-complete-guide-to-dealing-with-missing-values-in-python/
+What is MICE
+https://medium.com/@brijesh_soni/topic-9-mice-or-multivariate-imputation-with-chain-equation-f8fd435ca91#:~:text=Summary,based%20on%20the%20observed%20data.
+One hot encoding?
+Why do you need precision and recall?
+
+What are the examples of the supervised and Un supervised algorithm
+
+Linear regression and types
+
+Confusion Matrix
+
+Imputation of data
+
+Explain EDA Process for structured and unstructured data
+Highbrow Questions-Technical & Client Round.txt
+Displaying Highbrow Questions-Technical & Client Round.txt. 

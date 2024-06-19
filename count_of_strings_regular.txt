@@ -1,0 +1,6 @@
+import re
+s1='123!@#$abcde'    
+num_count=len(re.findall(r'[0-9]',s1))
+alpha_count=len(re.findall(r'[a-z]',s1))
+spec_count=len(re.findall(r'[^A-Za-z0-9]',s1))
+print(num_count,alpha_count,spec_count)

@@ -1,0 +1,14 @@
+s1= '@$567adbc'
+alphabets = digits = special = 0
+
+for i in range(len(s1)):
+    if(s1[i].isalpha()):
+        alphabets = alphabets + 1
+    elif(s1[i].isdigit()):
+        digits = digits + 1
+    else:
+        special = special + 1
+        
+print("\nTotal Number of Alphabets in this String :  ", alphabets)
+print("Total Number of Digits in this String :  ", digits)
+print("Total Number of Special Characters in this String :  ", special)
